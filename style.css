@@ -1,0 +1,220 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+    Create a fluid layout for the content of the webpage
+    Note: You need to specify the width of an element in order to center it using
+    margin: 0 auto
+
+*/
+
+/* Header styling for mobile screen */
+.container {
+    width: 84%;
+    margin: 0 auto;
+}
+
+/* Header styling for desktop screen */
+.container {
+    width: 91%;
+    max-width: 1240px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+.sr-only {
+    border: 0; 
+    clip: rect(0 0 0 0); 
+    height: 1px; 
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/* Header */
+
+.site {
+    display: flex;
+    align-items: center;
+}
+
+.site img {
+    width: 42px;
+    margin-right: 10px;
+}
+
+/* Header styling for mobile screen */
+.header .container {
+    height: 74px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Header style for desktop screen */
+@media (min-width: 900px) {
+    .header .container {
+        height: 100px;
+    }
+}
+
+
+/* Header's Site Name */
+
+.site .name {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+.site .desc {
+    color: #707F89;
+    font-size: 10px;
+    line-height: 1.4;
+}
+
+@media(min-width: 900px) {
+    .site img {
+        width: 59px;
+        margin-right: 18px;
+    }
+
+    .site .name {
+        font-size: 22px;
+    }
+
+    .site .desc {
+        font-size: 12px;
+    }
+}
+
+/* Navigation button */
+.nav-button {
+    box-sizing: content-box;
+    padding: 0;
+    outline: none;
+    border: none;
+    background: none;
+    width: 20px;
+    height: 14px;
+    cursor: pointer;
+    color: #2E5180;
+}
+
+.nav-button::before, 
+.nav-button::after {
+    content: '';
+    height: 2px;
+    display: block;
+    background-color: currentColor;
+    transform: translateY(5px);
+}
+
+.nav-button::before {
+    transform: translateY(-5px);
+    box-shadow: 0 6px currentColor;
+}
+
+/* Hero */
+.hero {
+    height: 400px;
+    background-image: url(images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+
+.hero .headline {
+    flex: auto;
+    align-self: flex-end;
+    padding: 33px 0;
+    background-color: rgba(255, 255, 255, 0.76);
+}
+
+/* In HTML, header tag should come before the Paragraph tag.
+    If you want the p tag to display before the h1 tag,
+    use the flex-direction: column-reverse property in the CSS file
+*/
+
+.hero .container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.hero p {
+    font-size: 15px;
+    color: #2E5180;
+    margin-bottom: 15px;
+}
+
+@media (min-width: 900px) {
+    .hero {
+        height: 700px;
+    }
+
+    .hero .heading {
+        padding: 47px 0 44px;
+    }
+
+    .hero p {
+        font-size: 18px;
+        margin-bottom: 22px;
+    }
+}
+
+/* Messages */
+.message {
+    padding: 67px 0;
+    background-color: #2E5180;
+    color: #ffffff;
+}
+
+.message h2 {
+    margin-bottom: 38px;
+    font-size: 26px;
+    line-height: 1.62;
+    text-align: center;
+}
+
+.message p {
+    max-width: 640px;
+    margin: auto;
+    font-size: 15px;
+    line-height: 1.73;
+}
+
+@media (min-width: 900px) {
+    .message {
+        padding: 81px 0;
+    }
+
+    .message h2 {
+        font-size: 36px;
+        line-height: 1.33;
+    }
+}
