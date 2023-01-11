@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="open">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,16 +26,25 @@
                     <p class="desc">Professional Business Support</p>
                 </div>
             </div>
+
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#" class="btn">Contact us</a></li>
+                </ul>
+            </nav>
     
-            <button type="button" class="nav-button">
+            <button type="button" class="nav-button" onclick="navFunc()">
                 <span class="sr-only">MENU</span>
             </button>
-        </div>
+        </div>     
     </header>
 
     <section class="hero">
         <div class="headline" >
             <div class="container">
+
                 <h1>
                     <img src="images/hero.svg" alt="BB Assistant Company">
                 </h1>
@@ -104,7 +113,7 @@
                 feedback, questions, or requests you have</p>
             </div>
 
-            <form action="POST" class="form">
+            <form action="" class="form">
                 <p>
                     <label>Name
                         <input type="text" name="name" placeholder="Name">
@@ -121,11 +130,43 @@
                     </label>
                 </p>
                 <p>
-                    <input type="submit" value="SUBMIT">
+                    <input type="submit" value="SUBMIT" class="btn">
                 </p>
             </form>
         </div>
 
-    </section>   
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="info">
+                <div class="site">
+                    <img src="images/bb-white.svg" alt="">  
+                    <div>    
+                        <p class="name">BB Assistant Company</p>   
+                    </div>
+                </div>
+    
+                    <address class="add">
+                        Carrot Hill 68 Str.<br>
+                        15342 Ground Town, North Island<br>
+                        +1-800-1234-5678
+                    </address>
+                </div>
+    
+                <ul class="sns">
+                   <li><a href="#"><img src="images/logo-twitter.svg" alt="Twitter"></a></li>   
+                   <li><a href="#"><img src="images/logo-facebook.svg" alt="Facebook"></a></li>   
+                   <li><a href="#"><img src="images/logo-instagram.svg" alt="Instagram"></a></li>  
+                </ul>
+            </div> 
+        </div>               
+    </footer> 
+    
+    <script>
+        function navFunc() {
+            document.querySelector('html').classList.toggle('open');
+        }
+    </script>
 </body>
+
 </html>
