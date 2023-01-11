@@ -169,7 +169,7 @@ a:hover {
     }
     
     .open .nav {
-        left: 0;
+        left: 100%;
     }
 }
 
