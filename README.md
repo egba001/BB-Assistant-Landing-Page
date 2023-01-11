@@ -19,6 +19,5 @@ using media queries.
 
 ## Live project
 
-- [![Netlify Status](https://api.netlify.com/api/v1/badges/b5ae037c-7d51-4222-a51d-a7a32dc86696/deploy-status)](https://app.netlify.com/sites/funny-piroshki-3081ca/deploys)
 - [Live project](https://funny-piroshki-3081ca.netlify.app/)
 
