@@ -171,8 +171,8 @@ a:hover {
     .open nav {
         left: 0;
     }
-    r Mobile nav menu on clicking the burger icon */
-.nav { 
+    /* Mobile nav menu on clicking the burger icon */
+    .nav { 
     position: absolute; 
     top: 0; 
     left: 100%; 
@@ -184,25 +184,25 @@ a:hover {
     justify-content: center;
     align-items: center;
     transition: left 0.5s;
-}
+    }
 
-html, body {
+    html, body {
     overflow-x: hidden;
-}
+    }
 
-.nav ul {
+    .nav ul {
     list-style-type: none;
     text-align: center;
     font-weight: bold;
-}
+    }
 
-.nav li:not(:last-child) {
+    .nav li:not(:last-child) {
     margin-bottom: 40px;
-}
+    }
 
-.nav .btn {
+    .nav .btn {
     color: inherit;
-}
+    }
 }
 
 /* Navigation menu on Desktop */
