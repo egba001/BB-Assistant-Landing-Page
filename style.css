@@ -168,8 +168,8 @@ a:hover {
         display: none;
     }
     
-    .open .nav {
-        left: 100%;
+    .open nav {
+        left: 0;
     }
 }
 
@@ -209,7 +209,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: left .5s;
+    transition: left 0.5s;
 }
 
 html, body {
