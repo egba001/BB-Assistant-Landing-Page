@@ -168,7 +168,7 @@ a:hover {
         display: none;
     }
     
-    .open nav {
+    .open .nav {
         left: 0;
     }
     /* Mobile nav menu on clicking the burger icon */
@@ -229,7 +229,6 @@ a:hover {
 
 }
 
-/* Fo
 
 /* Hero */
 .hero {
