@@ -171,33 +171,7 @@ a:hover {
     .open nav {
         left: 0;
     }
-}
-
-/* Navigation menu on Desktop */
-@media (min-width: 900px) {
-    .nav-button {
-        display: none;
-    }
-
-    .nav ul {  
-        display: flex;  
-        align-items: center;  
-        list-style: none;  
-        color: #333333; 
-    }
-
-    .nav li:not(:last-child) {  
-        margin-right: 23px; 
-    }
-
-    .nav .btn {  
-        width: 148px;  
-        border-color: #CDD6DD; 
-    } 
-
-}
-
-/* For Mobile nav menu on clicking the burger icon */
+    r Mobile nav menu on clicking the burger icon */
 .nav { 
     position: absolute; 
     top: 0; 
@@ -229,6 +203,33 @@ html, body {
 .nav .btn {
     color: inherit;
 }
+}
+
+/* Navigation menu on Desktop */
+@media (min-width: 900px) {
+    .nav-button {
+        display: none;
+    }
+
+    .nav ul {  
+        display: flex;  
+        align-items: center;  
+        list-style: none;  
+        color: #333333; 
+    }
+
+    .nav li:not(:last-child) {  
+        margin-right: 23px; 
+    }
+
+    .nav .btn {  
+        width: 148px;  
+        border-color: #CDD6DD; 
+    } 
+
+}
+
+/* Fo
 
 /* Hero */
 .hero {
