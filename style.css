@@ -212,6 +212,39 @@ a:hover {
         color: inherit;
     }
     
+    /* Mobile nav menu on clicking the burger icon */
+    .nav { 
+    position: absolute; 
+    top: 0; 
+    left: 100%; 
+    width: 100%; 
+    height: 100vh; 
+    background: rgba(0,0,0,0.8); 
+    color: #ffffff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: left 0.5s;
+    }
+
+    html, body {
+    overflow-x: hidden;
+    }
+
+    .nav ul {
+    list-style-type: none;
+    text-align: center;
+    font-weight: bold;
+    }
+
+    .nav li:not(:last-child) {
+    margin-bottom: 40px;
+    }
+
+    .nav .btn {
+    color: inherit;
+    }
+
 }
 
 
@@ -240,7 +273,10 @@ a:hover {
 
 }
 
+
 /* For Mobile nav menu on clicking the burger icon */
+
+
 
 /* Hero */
 .hero {

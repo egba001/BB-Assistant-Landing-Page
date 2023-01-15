@@ -1,7 +1,7 @@
-# Simple Company Website
-A simple website for a virtual assistant company created using vanilla CSS.
+# Simple Virtual Assistant Website
+A simple website for a virtual assistant company created using semantic HTML and vanilla CSS.
 I explored the use of CSS Flexbox in this project and i learnt how to develop responsive user interfaces
-using Flexbox layout
+using media queries. 
 
 <br>
 
@@ -19,6 +19,5 @@ using Flexbox layout
 
 ## Live project
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b5ae037c-7d51-4222-a51d-a7a32dc86696/deploy-status)](https://app.netlify.com/sites/funny-piroshki-3081ca/deploys)
-[Live project](https://funny-piroshki-3081ca.netlify.app/)
+- [Live project](https://funny-piroshki-3081ca.netlify.app/)
 
