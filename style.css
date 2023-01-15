@@ -160,10 +160,9 @@ a:hover {
     box-shadow: none;
 }
 
-/* Navigation Menu On Mobile */
 
 @media (max-width: 899px) {
-    html, body { 
+    html.open, .open body { 
         height: 100%; 
         overflow: auto; 
     }
@@ -174,26 +173,6 @@ a:hover {
     
     .open nav {
         left: 100%;
-    }
-
-
-    .header {
-        position: relative;
-    }
-}
-
-@media (max-width: 899px) {
-    html.open, .open body { 
-        height: 100%; 
-        overflow: hidden; 
-    }
-    
-    .open .form {
-        display: none;
-    }
-    
-    .open nav {
-        left: 0;
     }
 
 
